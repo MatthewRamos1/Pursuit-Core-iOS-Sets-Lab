@@ -38,10 +38,11 @@ for (number, score) in scoreDict{
         scoresThatAppearOnce.append(number)
     }
 }
-print(scoresThatAppearOnce)
+scoresThatAppearOnce = scoresThatAppearOnce.sorted()
 
 
-//assert(scoresThatAppearOnce == [1, 99], "Was expecting [1, 99], but got \(scoresThatAppearOnce)")
+
+assert(scoresThatAppearOnce == [1, 99], "Was expecting [1, 99], but got \(scoresThatAppearOnce)")
 
 // Question Three
 
